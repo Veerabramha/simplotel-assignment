@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/49bf5d043a27b890a040cf393277e2b2?family=TT+Norms+Pro+Regular);
+@import url(https://db.onlinewebfonts.com/c/16ea2b7277fbb154f052f8b8071dc31f?family=FSP+DEMO+-+TT+Norms+Pro+Medium);
+@import url(https://db.onlinewebfonts.com/c/57b97bf2f9f803d0578a7f09da4c39ff?family=Georgia+Pro+W01+Bold);
+
+* {
+    margin: 0px;
+}
+
+.nav-container {
+    background-color: #fc6f6f;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-options-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-option {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Georgia Pro W01 Bold";
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 50px;
+    letter-spacing: 3px;
+}
+
+.menu-icon {
+    display: flex;
+    align-self: center;
+    height: 40px;
+    width: 42px;
+}
+
+.main-page-conainer {
+    display: flex;
+}
+
+.container{
+    background-image: linear-gradient(to right, #fff6b8, #ffbee8);
+    height: 110vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.lorem-heading {
+    font-family: "TT Norms Pro ExtraBold";
+    font-weight: bolder;            
+    font-size: 3.8vw;
+    letter-spacing: 0.5vw;
+    padding-top: 4.5vw;
+}
+
+.lorem-description {
+    padding-top: 4.5vw;
+    font-family: "TT Norms Pro Regular";
+    font-size: 1.3vw;
+    line-height: 2.0vw;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #fc6f6f;
+    height: 45px;
+    width: 16vw;
+    border: none;
+    font-family: "TT Norms Pro Regular";
+    font-size: 1.1vw;
+    margin-top: 4.5vw;
+    margin-bottom: 5vw;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.image-container{
+    width: 50%;
+}
+
+.image1{
+    height: 110vh;
+    width: 50vw;
+    object-fit: cover;
+}
+
+.food-menu-container{
+    background-image: linear-gradient(to right, #fff6b8, #ffbee8);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.5vw;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin-left: 6vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.image2{
+    height: 15vw;
+    width: 19vw;
+    object-fit: cover;
+}
+
+.image3{
+    height: 15vw;
+    width: 19vw;
+    object-fit: cover;
+}
+
+.image4{
+    height: 31.8vw;
+    width: 20vw;
+    object-fit: cover;
+}
+.images-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6vw;
+    margin-right: 2vw;
+}
+
+.card-container{
+    background-color: #fc6f6f;
+    height: 18vw;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow: hidden;
+}
+
+.card-text1{
+    font-family: "TT Norms Pro Regular";
+    font-size: 1.1vw;
+    overflow: hidden;
+}
+
+.card-text2{
+    font-family: "TT Norms Pro ExtraBold";
+    font-weight: bolder;            
+    font-size: 3.5vw;
+    letter-spacing: 0.5vw;
+    line-height: 3.6vw;
+    padding-top: 1.6vw;
+    padding-bottom: 2vw;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.card-text3{
+    font-family: "TT Norms Pro Regular";
+    font-size: 1.1vw;
+}
+
+.arrow-container{
+    display: flex;
+}
+
+.right-arrow{
+    margin-left: 7px;
+    width: 24px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .nav-container {
+        height: 6vw;
+        max-width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-option {
+        font-size: 1.8vw;
+        letter-spacing: 2px;
+        padding-right: 3vw;
+    }
+
+    .container{
+        height: 50vw;
+        width: 100%;
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .main-page-conainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-icon {
+        height: 4vw;
+        width: 4vw;
+        padding-right: 3vw;
+    }
+
+    .lorem-heading {                          
+        font-size: 5vw;
+        letter-spacing: 0.3vw;
+        padding-top: 5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    
+    .lorem-description {
+        padding-top: 3vw;
+        font-size: 2vw;
+        line-height: 2.5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .image-container{
+        width: 100%;
+    }
+
+    .image1{
+        height: 50%;
+        width: 100%;
+    }
+
+    .button {
+        height: 26px;
+        width: 12vw;
+        margin-bottom: 30px;
+        font-size: 1.4vw;
+        margin-left: 10vw;
+    }
+
+    .food-menu-container{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20vw;
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: row;
+        gap: 8vw;
+        margin-right: 0px;
+    }
+    
+    .image2{
+        height: 50vw;
+        width: 30vw;
+    }
+
+    .image3{
+        height: 50vw;
+        width: 30vw;
+    }
+
+    .image4{
+        height: 67vw;
+        width: 30vw;
+        object-fit: cover;
+        transform: rotate(90deg);
+        margin-top: -12vw;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        gap: 1vw;
+        margin-top: 2vw;
+    }
+        
+    .card-container{
+        height: 30vw;
+        width: 65vw;
+        display: flex;
+        overflow: hidden;
+        margin-top: -12vw;
+        margin-bottom: 15vw;
+    }
+
+    .card-text1{
+        font-size: 2.5vw;
+        padding-bottom: 0vw;
+        overflow: hidden;
+    }
+
+    .card-text2{                          
+        font-size: 5vw;
+        padding-top: 3vw;
+        overflow: none;
+        text-overflow: none;
+        line-height: 5vw;
+        padding-bottom: 3vw;
+    }
+
+    .card-text3{
+        font-size: 2.5vw;
+    }
+
+    .arrow-container{
+        display: flex;
+    }
+
+    .right-arrow{
+        margin-left: 0.9;
+        width: 4vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .nav-option {
+        font-size: 1.8vw;
+        letter-spacing: 2px;
+        padding-right: 3.8vw;
+    }
+
+    .menu-icon{
+        padding-right: 3vw;
+    }
+
+    .container{
+        height: 50vw;
+        width: 100%;
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .main-page-conainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .food-menu-container{
+        height: auto;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        gap: 1vw;
+        margin-top: 2vw;
+    }
+    
+    .lorem-heading {                          
+        font-size: 6vw;
+        letter-spacing: 0.3vw;
+        padding-top: 5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    
+    .lorem-description {
+        padding-top: 3vw;
+        font-size: 2vw;
+        line-height: 2.5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .flex-container{
+        padding-top: 5vw;
+    }
+
+    .image-container{
+        width: 100%;
+    }
+
+    .image1{
+        height: 50%;
+        width: 100%;
+        object-fit: fill;
+    }
+    
+    .image2{
+        height: 24vw;
+        width: 30vw;
+    }
+
+    .image3{
+        height: 24vw;
+        width: 30vw;
+    }
+
+    .image4{
+        height: 50vw;
+        width: 30vw;
+    }
+
+    .button {
+        height: 35px;
+        width: 20vw;
+        margin-bottom: 30px;
+        font-size: 1.8vw;
+        margin-left: 10vw;
+    }
+    
+    .card-container{
+        height: 25vw;
+        width: 61vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    
+    .card-text1{
+        font-size: 1.9vw;
+        padding-bottom: 1vw;
+        overflow: hidden;
+    }
+
+    .card-text2{                          
+        font-size: 5vw;
+        padding-top: 2vw;
+        overflow: none;
+        text-overflow: none;
+        line-height: 5vw;
+        padding-bottom: 2vw;
+    }
+
+    .card-text3{
+        font-size: 1.9vw;
+    }
+}
+  
+  
